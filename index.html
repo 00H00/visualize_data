@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel='stylesheet' href='./style.css'>
+</head>
+<body>
+	<div id='wrapper'>
+		<div id='viewer'>
+			<canvas id="canvas"></canvas>
+		</div>
+		<div id='ui'>
+			<p>実験データを表示するプログラム</p>
+			<p>大きい球は固有ベクトル，大きい球の色は種類を表す</p>
+			<p>小さい球は初期値の位置，小さい球の色は収束先の固有ベクトルを表す</p>
+			<br>実験結果<br>
+			<input type='file' id='file_result'>
+			<button type='button' id='savebtn'>写真をダウンロード</button>
+		</div>
+</div>
+<script type='module' src='./main.js'></script>
+</body>
+</html>
