@@ -1,22 +1,28 @@
 ## 概要
 
 Three.jsを用いて数値実験のデータを可視化したときのプログラム．
-可視化が目的なので，htmlのデザインや実験データのフォーマットが間違っているときのエラー処理など細かいことは何もしてない．
+可視化が目的なので、htmlのデザインや実験データのフォーマットが間違っているときのエラー処理など細かいことは何もしていないし、実験での前提条件を考慮した上でコードを書いている.
+数値実験のプログラムは非公開。
 
 
 ## 使い方
-1. ```$git clone https://github.com/00H00/visualize_data ```
+1. ```git clone https://github.com/00H00/visualize_data ```
 
-2. ```$node node_server.js``` または ```#python server.py```
+2. ```node node_server.js``` または ```python server.py```
 
 Three.jsをモジュールとして使用しているため，ローカルサーバを建てる必要がある．
  node.jsまたはpythonが必要で，node.jsを使う場合npmでモジュールをインストールする必要は**ない**．
 
-3.  ブラウザのURLに```localhost```または```127.0.0.1```を入力
+3.  ブラウザのURLに```localhost```または```127.0.0.1```を入力（ポートは80番）
 
-4.  実験データのファイルに```test_data1.csv``` または ```test_data2.csv``` を選択してデータを読み込む．
+4.  実験データのファイルに```test_data1.csv``` または ```test_data2.csv``` を選択してデータを読み込む．（データフォーマットを合わせれば自由にできる）
 
 5.  必要に応じてダウンロードボタンを押して，画面のpngファイルを保存する．
 
+## 図
+使用するとこんな感じ
+[_image](https://user-images.githubusercontent.com/82817236/148967613-68b5be01-b204-4351-b714-c586ca3d1836.png)
+
 ## 注意点
-Three.js（see https://github.com/mrdoob/three.js ）はそこそこ頻繁にバージョンと仕様が変わる．現在(2021/6/15）では127を使用してる．
+- Three.js（see https://github.com/mrdoob/three.js ）はそこそこ頻繁にバージョンと仕様が変わる．現在(2021/6/15）では127を使用してる．
+- node.jsを使った方がいろいろ便利っぽいけど、データが見えればよかったので割愛
