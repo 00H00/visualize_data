@@ -5,9 +5,9 @@ Three.jsを用いて数値実験のデータを可視化したときのプログ
 
 
 ## 使い方
-1. ```#git clone https://github.com/00H00/visualize_data ```
+1. ```$git clone https://github.com/00H00/visualize_data ```
 
-2. ```#node node_server.js``` または ```#python server.py```
+2. ```$node node_server.js``` または ```#python server.py```
 
 Three.jsをモジュールとして使用しているため，ローカルサーバを建てる必要がある．
  node.jsまたはpythonが必要で，node.jsを使う場合npmでモジュールをインストールする必要は**ない**．
