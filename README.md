@@ -21,7 +21,7 @@ Three.jsをモジュールとして使用しているため，ローカルサー
 
 ## 図
 使用するとこんな感じ
-[_image](https://user-images.githubusercontent.com/82817236/148967613-68b5be01-b204-4351-b714-c586ca3d1836.png)
+![_image](https://user-images.githubusercontent.com/82817236/148967613-68b5be01-b204-4351-b714-c586ca3d1836.png)
 
 ## 注意点
 - Three.js（see https://github.com/mrdoob/three.js ）はそこそこ頻繁にバージョンと仕様が変わる．現在(2021/6/15）では127を使用してる．
